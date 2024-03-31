@@ -29,7 +29,7 @@ Input: Push (1): 3, Invalid Input: alphabetic characters, Clear Queue (7), Check
 ![Error Handling](/EmptyandErrorHanlding.png)
 
 ### Buffer Overflow caused by Integer Overflow 
-Input: Push (1): 456967743077
+**When the queue is full** Input: Push (1): 456967743077
 ![Buffer Overflow](/Overflow.png)
 
 ## Linear Search Modification

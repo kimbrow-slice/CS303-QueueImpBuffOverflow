@@ -1,5 +1,5 @@
 # CS303-Assignment-3 Vulnerable Queue Implementation
- Queue Implementation with valid input, error handling, and the demonstration of a buffer overflow caused by integer overflow. 
+ Queue Implementation with valid input, error handling, and the demonstration of a buffer overflow caused by integer overflow. The lack of proper input validation or sanitization allows potential attackers to craft malicious inputs.  By allowing an operation to exceed the limits of an integer, we can show how the program's logic might fail, which leads to a crash of the program (NOT VISUAL STUDIO). The Visual Studio debugger indicates a memory access violation, which can happen after a buffer overflow where the program's memory integrity is compromised. 
 
 #### References:
 [C++ Long Integer overflow](https://stackoverflow.com/questions/44874465/long-integer-overflow-in-c)
@@ -30,6 +30,4 @@ Input: Push (1): 3, Invalid Input: alphabetic characters, Clear Queue (7), Check
 
 ##### Buffer Overflow caused by Integer Overflow 
 Input: Push (1): 456967743077
-
-The lack of proper input validation or sanitization allows potential attackers to craft malicious inputs.  By allowing an operation to exceed the limits of an integer, we can show how the program's logic might fail, which leads to a crash of the program (NOT VISUAL STUDIO). The Visual Studio debugger indicates a memory access violation, which can happen after a buffer overflow where the program's memory integrity is compromised. 
 ![Buffer Overflow](/Overflow.png)

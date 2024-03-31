@@ -8,7 +8,7 @@ int main() {
 
     std::cout << "Welcome to Queue Operations Menu\n";
     std::cout << "Initially, please push 10 positive integer values into the queue:\n";
-    std::cout << "WARNING: The queue is statically casted to a size of 10.\nThis was intentially done to allow the demonstration of an integer overflow with unsecure code.\n";
+    std::cout << "WARNING: The queue is statically casted to a size of 10.\nThis was intentially done to allow the demonstration vulnerabilities with unsecure code.\n";
     for (int i = 0; i < 10; ) {
         std::cout << "Enter an integer value (0 or positive) to push: ";
         if (std::cin >> value) {

@@ -12,23 +12,23 @@
 5. Press Crtl + F5 to build and run the program without debugging, or F5 to run with debugging.
 
 ## Queue Implementation:
-##### Initialization, Check Empty, Display Front Element
+#### Initialization, Check Empty, Display Front Element
 Input: Push (1 x10): { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, Check Empty (3): Not Empty, Display Front Element (4): 0
 ![Valid data input from user](/Initilaztion.png)
 
-##### Display, Move to Rear, Display, Pop
+#### Display, Move to Rear, Display, Pop
 Input: Display Queue (5): { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, Move to Rear (6): 0 is moved, Display Queue (5):{ 1, 2, 3, 4, 5, 6, 7, 8, 9, 0 } , Pop (2): 1
 ![Valid data input from user](/ValidInput2.png)
 
-##### Display, Push, Clear, Display
+#### Display, Push, Clear, Display
 Input: Display Queue (5): { 2, 3, 4, 5, 6, 7, 8, 9, 0 }, Push (1): 22, Clear Queue (7), Display Queue (5): {  }
 ![Valid data input from user](/ValidInput3.png)
 
-##### Push, Error Handling, Clear Queue, Check Empty
+#### Push, Error Handling, Clear Queue, Check Empty
 Input: Push (1): 3, Invalid Input: alphabetic characters, Clear Queue (7), Check Empty (3)
 ![Error Handling](/EmptyandErrorHanlding.png)
 
-##### Buffer Overflow caused by Integer Overflow 
+#### Buffer Overflow caused by Integer Overflow 
 Input: Push (1): 456967743077
 ![Buffer Overflow](/Overflow.png)
 

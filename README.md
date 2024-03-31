@@ -2,7 +2,7 @@
  Queue Implementation with valid input, error handling, and the demonstration of a buffer overflow caused by integer overflow. 
 
 #### References:
-[C++ ostream, friends and namspaces](https://stackoverflow.com/questions/44874465/long-integer-overflow-in-c)
+[C++ Long Integer overflow](https://stackoverflow.com/questions/44874465/long-integer-overflow-in-c)
 
 ## Setup
 1. Open Visual Studio Community. (Tested in Visual Studio Community 2022 only)

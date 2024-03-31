@@ -11,7 +11,7 @@
 4. Right click the Project in the Solution Explorer and click Set as Startup Project. 
 5. Press Crtl + F5 to build and run the program without debugging, or F5 to run with debugging.
 
-### Queue Implementation:
+## Queue Implementation:
 ##### Initialization, Check Empty, Display Front Element
 Input: Push (1 x10): { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 }, Check Empty (3): Not Empty, Display Front Element (4): 0
 ![Valid data input from user](/Initilaztion.png)
@@ -31,3 +31,9 @@ Input: Push (1): 3, Invalid Input: alphabetic characters, Clear Queue (7), Check
 ##### Buffer Overflow caused by Integer Overflow 
 Input: Push (1): 456967743077
 ![Buffer Overflow](/Overflow.png)
+
+## Linear Search Modification
+![Linear Search Modification](/LinearSearch/LinearSearch.png)
+
+## Insertion Sort Modification 
+![Linear Search Modification](/InsertionSort/InsertionSort.png)

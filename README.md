@@ -33,7 +33,17 @@ Input: Push (1): 3, Invalid Input: alphabetic characters, Clear Queue (7), Check
 ![Buffer Overflow](/Overflow.png)
 
 ## Linear Search Modification
+1. Open Visual Studio Community. (Tested in Visual Studio Community 2022 only)
+2. Select File -> Open -> Project/Solution and navigate to teh downloaded project files. 
+3. Choose the solution file (.sln) file or main.cpp to open the project.
+4. Right click the Project in the Solution Explorer and click Set as Startup Project. 
+5. Press Crtl + F5 to build and run the program without debugging, or F5 to run with debugging.
 ![Linear Search Modification](/LinearSearch/LinearSearch.png)
 
 ## Insertion Sort Modification 
+1. Open Visual Studio Community. (Tested in Visual Studio Community 2022 only)
+2. Select File -> Open -> Project/Solution and navigate to teh downloaded project files. 
+3. Choose the solution file (.sln) file or main.cpp to open the project.
+4. Right click the Project in the Solution Explorer and click Set as Startup Project. 
+5. Press Crtl + F5 to build and run the program without debugging, or F5 to run with debugging.
 ![Linear Search Modification](/InsertionSort/InsertionSort.png)
